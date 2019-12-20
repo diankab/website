@@ -22,7 +22,7 @@ export const MessageBox: React.FC<MessageBoxProps> = props => {
         Click
       </Button>
       <Message>{messages[messageNumber]}</Message>
-      <Input />
+      {/* <Input /> */}
     </Wrapper>
   );
 };
